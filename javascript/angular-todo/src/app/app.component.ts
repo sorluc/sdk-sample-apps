@@ -73,7 +73,7 @@ export class AppComponent implements OnInit {
           ? 'login?centralLogin=true'
           : 'callback.html'
       }`,
-      scope: 'openid profile email',
+      scope: 'openid profile email address',
       serverConfig: {
         baseUrl: environment.SERVER_URL,
         timeout: 3000, // 9000 or less
